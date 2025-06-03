@@ -1,6 +1,6 @@
 # Tiny Tapeout project information
 project:
-  title:        "Control de Intermitentes"      # Project title
+  title:        "Caja"      # Project title
   author:       "Moises"                     # Your name
   discord:      "TuUsuario#1234"                # Your discord username
   description:  "Circuito de control para luces intermitentes automotrices." # One line description of what your project does
@@ -17,7 +17,6 @@ project:
   # Source files must be in ./src and you must list each source file separately, one per line.
   # Don't forget to also update `PROJECT_SOURCES` in test/Makefile.
   source_files:
-    - "control_intermitentes.v"
     -"top_gearbox_fsm.v"
     -"gearbox_fsm_fixed.v"
     -"gearbox_fsm.v"
