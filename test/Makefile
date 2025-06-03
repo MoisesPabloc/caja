@@ -5,7 +5,7 @@
 SIM ?= icarus
 TOPLEVEL_LANG ?= verilog
 SRC_DIR = $(PWD)/../src
-PROJECT_SOURCES = project.v
+PROJECT_SOURCES = top_gearbox_fsm.v gearbox_fsm.v gearbox_fsm_fixed.v
 
 ifneq ($(GATES),yes)
 
